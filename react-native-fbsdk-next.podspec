@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'Share' do |ss|
     ss.dependency     'FBSDKShareKit', "~> #{FBSDKVersion}"
-    ss.dependency     'FBSDKGamingServicesKit', "~> #{FBSDKVersion}"
     ss.source_files = 'ios/RCTFBSDK/share/*.{h,m}'
   end
 end
